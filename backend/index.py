@@ -5,6 +5,10 @@ from flask_cors import CORS  # Import CORS
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
+@app.route('/check')
+def index():
+    return "hello flask"
+
 @app.route('/', methods=['POST'])
 def home():
     data = request.get_json()
