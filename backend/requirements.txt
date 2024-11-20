@@ -1,4 +1,5 @@
-Flask==2.2.2
+Flask==2.2.5
+Werkzeug==2.2.3
 Flask-Cors==5.0.0
 requests==2.31.0
 beautifulsoup4==4.12.2
